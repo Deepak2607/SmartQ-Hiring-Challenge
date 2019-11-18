@@ -1,0 +1,36 @@
+<html>
+
+<body>
+
+<input id="input" type="text">
+<button type="button" id="button" onclick="myFunction()">press button</button>
+<p id="para">Enter a number between 5 and 10</p>
+<script type="text/javascript">
+
+function myFunction(){
+	var input= document.getElementById("input").value;
+
+    try{
+    	if(input==""){
+		throw "input is empty";
+		}else if(isNaN(input)){
+			throw "input is not a number";
+		}else if(input<5){
+			throw "input less than 5";
+		}else if(input>10){
+			throw "input greater than 10";
+		}
+
+    }catch(err){
+    	document.getElementById("para").innerHTML=err;
+    }
+	
+}
+
+
+</script>
+
+</body>
+</html>
+
+

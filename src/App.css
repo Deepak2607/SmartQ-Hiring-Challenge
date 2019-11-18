@@ -1,0 +1,14 @@
+.heading{
+    color:deeppink
+}
+
+.body{
+    margin-top: 20%;
+    padding:7px;
+    text-align: center;
+    box-shadow: 2px 3px 4px 4px #ccc;
+    border:2px #eee;
+    box-sizing: content-box;
+    height:auto;
+    padding-bottom:30%   
+}

@@ -1,0 +1,14 @@
+.cart1{   
+    height:auto;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    border: 2px #eee;
+    margin: 70px;
+    padding-left: 1000px;
+    padding: 15px;
+    text-align: left;
+    
+}
+
+.bold{
+    font-weight: bold
+}
