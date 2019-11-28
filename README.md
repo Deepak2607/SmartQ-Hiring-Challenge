@@ -1,3 +1,8 @@
+[enter image description here][1]
+
+
+  [1]: https://i.stack.imgur.com/p4ZGr.png
+
 • The homepage consists of all items with their prices and availability. It also contains a cart below all items.
 
 • A user can increase/decrease the quantity of any item dynamically, which can be observed in cart.
